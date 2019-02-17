@@ -1,9 +1,9 @@
 import paramiko
 from paramiko_expect import SSHClientInteraction
-import threading
-import xlsxwriter
+
+
 import time
-import pexpect
+
 import re
 
 file = open("output.txt","w+")

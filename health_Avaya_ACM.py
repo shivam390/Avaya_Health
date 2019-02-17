@@ -1,9 +1,6 @@
 import paramiko
 from paramiko_expect import SSHClientInteraction
-
-
 import time
-
 import re
 
 file = open("output.txt","w+")

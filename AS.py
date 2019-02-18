@@ -5,7 +5,7 @@ ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 
 outF = open("output.txt", "w")
-hub_ip=('10.190.64.12','10.190.64.17','10.190.68.12','10.190.68.17','10.120.64.12')
+hub_ip=('Desired_ip','Desired_ip','Desired_ip','Desired_ip','Desired_ip')
 for ip in hub_ip:
     outF.write("\n \n------------For IP: "+str(ip))
     outF.write("\n")

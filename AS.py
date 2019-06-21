@@ -9,8 +9,8 @@ hub_ip=('Desired_ip','Desired_ip','Desired_ip','Desired_ip','Desired_ip')
 for ip in hub_ip:
     outF.write("\n \n------------For IP: "+str(ip))
     outF.write("\n")
-    username= "cmorchestra"
-    password = "ottawa123"
+    username= "username"
+    password = "password"
     ssh.connect(ip, port=22, username=username, password=password)
     stdin, stdout, stderr = ssh.exec_command('df -h')
     output = stdout.readlines()
